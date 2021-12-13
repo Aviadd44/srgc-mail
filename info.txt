@@ -1,0 +1,9 @@
+Start Date: 13/12/2021
+frontend: Angular(JS framework, or we can use also use react), HTML, CSS, JS
+backend: Java
+Db: MYSQL
+
+---------------------------------------------------------
+Command to start frontend:
+	- go to project (src, node_modules etc..) 
+	- npm start
