@@ -1,0 +1,48 @@
+Start Date: 13/12/2021
+frontend: Angular(JS framework, or we can use also use react), HTML, CSS, JS
+backend: Java(11), FrameWork- Spring, Tool- Maven 
+Db: MYSQL
+
+---------------------------------------------------------
+Command to start frontend:
+	- go to project folder(src, node_modules etc..) 
+	- npm start
+
+Command to start backend:
+	- go to project folder(src, pom.xml etc.)
+	- mvn spring-boot:run 	
+
+Coomand to stop frontend/backend(any lang):
+	- ctrl+c
+	
+---------------------------------------------------------
+
+Commands to push new changes to remote/github
+
+git add .
+git commit -m 'your message for reference'
+git push
+
+-----------------------------------------------------------
+Steps to create JAVA/Spring boot project:
+	- go to https://start.spring.io/
+	-Fill details as required 
+	- Add Dependencies(Spring Web), *optional
+	
+-------------------------------------------------------------
+
+	- Frontend will run on 4200;
+	- Backend will run on 8080;	
+
+--------------------------------------------------------------
+
+In Java, Form and table will be represented as model.
+For example we can hve a student student model,teacher model, etc.
+Each model will be stored in model package(Folder).
+
+--------------------------------------------------------------------
+http methods/verb are of four types:
+	- post(for save);
+	- put(for update)
+	- get(to get data)
+	- delete(to delete)
