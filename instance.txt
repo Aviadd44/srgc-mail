@@ -38,4 +38,4 @@ sudo apt-get install nginx
 
 ng build --prod
 cd srgc-fe/dist/
-sudo cp * /var/www/html/
+sudo cp -r /home/ubuntu/srgc-fe/dist/* /var/www/html/
