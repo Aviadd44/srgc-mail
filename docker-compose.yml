@@ -1,0 +1,19 @@
+version: "2.4"
+
+services:
+  post:
+    image: ankushadd/avi-repo:latest
+    ports:
+      - "8080:8080"
+    mem_limit: 180m
+    depends_on:
+      - "mysql-local"
+
+  mysql-local:
+    image: mysql:latest
+    ports:
+      - "3306:3306"
+    mem_limit: 400m
+    environment:
+      MYSQL_DATABASE: srgc
+      MYSQL_ROOT_PASSWORD: root
